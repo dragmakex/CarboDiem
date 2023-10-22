@@ -50,7 +50,7 @@ contract EscrowContract is Ownable {
     }
 
     function depositTokens(uint256 amountCarbonCredits, uint256 amountStablecoin) public payable onlyOwner {
-        require(maturationTime == 0, "Tokens already deposited.");
+        require(maturationDate == 0, "Tokens already deposited.");
         require(carbonCredits.token.transferFrom(msg.sender, address(this), amountCarbonCredits), "Transfer of carbon credits failed.");
         require(stablecoins.token.transferFrom(msg.sender, address(this), amountStablecoin), "Transfer of stablecoin failed.");
         maturationDate = block.timestamp + maturationTime;

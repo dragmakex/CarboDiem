@@ -6,7 +6,7 @@ pragma solidity ^0.8.20;
  
 import {ERC20} from "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 
-contract CCToken is ERC20, Ownable {
+contract CarbonCreditToken is ERC20, Ownable {
     uint8 public weightPercentage;
 
     event WeightAdjustment(address indexed weightAdjuster, uint8 percentage);
@@ -22,7 +22,7 @@ contract CCToken is ERC20, Ownable {
     }
 
     function adjustWeight(uint8 percent) public onlyOwner{
-        require(percent >= 0 && percent <=100, "percentage out of range");
+        require(percent >= 0, "percentage out of range");
         weightPercentage = percent;
         emit WeightAdjustment(msg.sender, percent)
     }
