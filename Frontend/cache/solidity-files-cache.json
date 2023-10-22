@@ -1,8 +1,8 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "/Users/niklasbogensperger/Downloads/hardhat-boilerplate/contracts/Token.sol": {
-      "lastModificationDate": 1697938810259,
+    "/Users/niklasbogensperger/Downloads/team2/Frontend/contracts/Token.sol": {
+      "lastModificationDate": 1697946577662,
       "contentHash": "e2a4865d67a233f824733d8707a4cea0",
       "sourceName": "contracts/Token.sol",
       "solcConfig": {
@@ -38,8 +38,8 @@
         "Token"
       ]
     },
-    "/Users/niklasbogensperger/Downloads/hardhat-boilerplate/node_modules/hardhat/console.sol": {
-      "lastModificationDate": 1697912978550,
+    "/Users/niklasbogensperger/Downloads/team2/Frontend/node_modules/hardhat/console.sol": {
+      "lastModificationDate": 1697947002624,
       "contentHash": "4ff3cd2f6272c9a6516e9ee4f2b967d3",
       "sourceName": "hardhat/console.sol",
       "solcConfig": {
