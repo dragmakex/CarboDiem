@@ -28,7 +28,7 @@ CarboDiem introduces a blockchain-based solution that ensures the authenticity a
 - **Environmental Impact**: Play a vital role in ensuring the carbon market truly contributes to environmental sustainability.
 - **Value Validation**: Assist in validating the real-world impact of carbon sequestration projects.
 
-### For CarboDiem
+### For Us
 - **Environmental Contribution**: Be at the forefront of making carbon credits a reliable tool in the fight against climate change.
 - **Revenue Generation**: Earn commissions through secure and transparent carbon credit transactions.
 
